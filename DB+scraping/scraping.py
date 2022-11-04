@@ -18,5 +18,5 @@ for data in data_list:
     news_title.append(data.span.string)
     news_url.append(data.attrs["href"])
 
-print(news_title)
-print(news_url)
+# print(news_title)
+# print(news_url)
