@@ -18,7 +18,7 @@ cursor.execute("DROP TABLE IF EXISTS name_age_list")
 # テーブルの作成
 cursor.execute("""CREATE TABLE name_age_list(
     id INT(11) AUTO_INCREMENT NOT NULL, 
-    name VARCHAR(30) NOT NULL COLLATE utf8mb4_unicode_ci, 
+    name VARCHAR(30) NOT NULL, 
     age INT(3) NOT NULL,
     PRIMARY KEY (id)
     )""")
