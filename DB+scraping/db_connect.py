@@ -34,7 +34,7 @@ for i in range(len(news_title)):
 
 
 # 一覧の表示
-cursor.execute("SELECT * FROM news_list")
+title = cursor.execute("SELECT * FROM news_list")
  
 for row in cursor:
     print(row)
