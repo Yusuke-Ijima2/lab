@@ -42,7 +42,7 @@ data = []
 for row in cursor:
     data.append(row)
 
-print(data)
+# print(data)
  
 # 保存を実行
 connection.commit()
