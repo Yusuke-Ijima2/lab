@@ -2,8 +2,6 @@
 import MySQLdb
 # スクレイピングデータのインポート
 import scraping_yahoonews_topic
-# csv出力
-import csv
 
 # データベースへの接続とカーソルの生成
 connection = MySQLdb.connect(
