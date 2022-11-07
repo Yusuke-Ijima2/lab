@@ -2,7 +2,9 @@
 import MySQLdb
 # スクレイピングデータのインポート
 import scraping
- 
+# csv出力
+import csv
+
 # データベースへの接続とカーソルの生成
 connection = MySQLdb.connect(
     host='localhost',
@@ -35,13 +37,20 @@ for i in range(len(news_title)):
 
 # 一覧の表示
 title = cursor.execute("SELECT * FROM news_list")
- 
+
+data = []
 for row in cursor:
-    print(row)
- 
+    data.append(row)
+
+print(data)
  
 # 保存を実行
 connection.commit()
  
 # 接続を閉じる
 connection.close()
+
+f = open('write1.csv', 'w')
+writer = csv.writer(f)
+writer.writerows(data)
+f.close()
