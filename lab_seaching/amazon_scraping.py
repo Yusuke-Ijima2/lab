@@ -268,7 +268,6 @@ def scrape_amazon(url):
         
 
         for review in reviews:
-            print(review)
             title = scr.get_text(review.find('a',class_='a-size-base a-link-normal review-title a-color-base review-title-content a-text-bold'))
             title = scr.get_text(review.find('span',class_='cr-original-review-content')) if title.strip() == '' else title
             name = scr.get_text(review.find('span',class_='a-profile-name'))
@@ -277,12 +276,11 @@ def scrape_amazon(url):
             date = scr.get_text(review.find('span',class_='a-size-base a-color-secondary review-date'))
             date = date[:date.find('に')]
             comment = scr.get_text(review.find('span',class_='a-size-base review-text review-text-content'))
-            # scr.add_df([title,name,star,date,comment],['title','name','star','date','comment'],['\n'])
+            scr.add_df([title,name,star,date,comment],['title','name','star','date','comment'],['\n'])
         
         if len(reviews) < 10:
             break
 
     scr.to_csv("amazon口コミ.csv")
-    # print(scr)
 
 scrape_amazon('https://www.amazon.co.jp/%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3%E3%83%91%E3%83%AF%E3%83%BC-USB%E3%83%A1%E3%83%A2%E3%83%AA-USB3-0-%E3%83%8D%E3%82%A4%E3%83%93%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC-SP064GBUF3B05V1D/dp/B00GOJ4R0U/ref=cm_cr_arp_d_product_top?ie=UTF8')
