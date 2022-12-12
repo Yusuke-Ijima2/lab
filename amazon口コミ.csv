@@ -1,96 +1,96 @@
 title,name,star,date,comment
-基本仕様が洗練されていて良い,湿気,4.0,2022年10月15日,"デザインに惹かれて、価格を見ると比較的安価だったので購入しました。デザインだけでなく、基本性能や使い勝手も良かったです。まず、基本情報から見ていきましょう。生産国はMade In Taiwanで台湾製です。（シリコンパワーですし、当然と言えば当然ですね）適合規格はパッケージ表記曰く、CE,FCC,KCC,,BSMI,RoHSなど。また、WEEEマークやグリーンドットもあります。シリコンパワーの他製品同様、日本のVCCIマークはやはりありません。さて、開封…シリコンパワー製品はどうにもパッケージの開け方が分かりません。（この手の製品の常で、ハサミで真ん中あたりを切っているのですが、パッケージの内側にも説明書きがある…）それは置いておいて、本体を取り出すと大きさは大体54×20×9(mm)程度。紺色が綺麗です。ストラップホールはシンメトリーに付いており、使わずともデザインに貢献しているような感じ。スライドは少し固めで、機器に差し込む際に戻ってしまうということもなさそうです。適合規格の刻印が本体にもしっかりとありますが、何故かCE,FCC,BSMIの刻印は２か所にあります。（どうでもいいと言えばどうでもいいんですが）実際にPCに差し込んで使ってみましょう…と、青い光が。特に購入時商品説明にはありませんでしたが、なんとアクセスランプが付いています。控えめに青いランプが接続時には点灯、データ転送時は点滅する仕様になっています。要らないという人も一定数いるかもしれませんが、あった方が良いという人は多いはず。これは１つポイントですね。次に、参考データとしてCrystal Disk Markで速度測定します。なお、Ver.7とVer.8の２パターンで測定しました。結果はどちらもほとんど同様で誤差の範囲。Sequential Read（シーケンシャル読込）で80MB/s前後、Random Read（ランダム読込）で5~10MB/s前後。Sequential Write（シーケンシャル書込）で70MB/s前後、Random Write（ランダム書込）で1.5MB/s前後。USBメモリとして、読込速度は決して速い方ではありませんが、実用的な速度が出ていると思います。書込速度に関しては、ランダムで1.5MB/sは良い方でしょう。東芝（現：キオクシア）製なんかだと、これが苦手で0.0いくらとかになる場合が多いのですが、この製品の速度ならササっと書込めます。注記として、私は本製品の128GBを購入しましたが初期フォーマットはFAT32でした。シリコンパワー製品は、基本的にFAT32が初期フォーマットなようです。私はexFATでフォーマットして使用しています。FAT32では、1ファイルあたり4GBまでという上限がありますので、大容量のファイルを扱う方は再フォーマットをお忘れなきよう。また、Crystal Disk Markによる測定は、アロケーションユニットサイズ128KBのフォーマットで行っています。使用コンピュータのスペックは大まかに「CPU：Intel Core i7-9750H」「メモリ：8GB」「Cドライブ：WDのSN520」という構成です。測定結果は、以上の情報も念頭に入れて参考になさってください。ここまで見てきて、特にこれと言った難点はありません。残る心配すべき点は耐久性ですが、これは個体差や使用環境で変わるのでなんとも言えません。発熱はUSBメモリの中でもどちらかと言うと少ない方で、放熱性にも特に問題は感じられません。ですから、恐らくは設計に問題はないと思います。あとは、シリコンパワーが使用しているNANDメモリの質次第。とりあえず、手持ちの本製品が故障した際には追記したいと思います。以上、見た目が受け付けないだとか、アクセスランプ排斥派だとか、キャップ式以外認めないだとかいうのでなければ、お勧めしたい製品です。普段は東芝（現：キオクシア）のスライド式を使うのですが、価格を考えると、この製品をリピートするかもしれません。総合的に見て、良い製品だと思います。"
-個体差？ランダム書き込みが遅い,める,4.0,2022年10月31日,2022/10/30に購入し、Windows 11でベンチ測定した値ですが、ランダム書き込みが遅い感じ。所有していた同じシリコンパワーの「SP032GBUF3B02V1K」のランダム書き込みは遅くありません。※写真1枚目が本製品で、2枚目が上記製品ランダム書き込み以外は本製品の方がいい数値なんですけどねぇ・・・個体差なのかもしれません。キャップレスに固執しないようであれば、この製品ではなく上記製品を検討した方がいいかも。そこまで使用頻度は高くない予定ですが、もし不具合や故障等が出たらまた書き込みします。
-使いやすいコスパ良いUSB,カスタマー,5.0,2022年11月14日,熱などを持つことなく、快適に使えています。キャップレスなのもグッドポイント
-お買い得でした,masa,4.0,2022年10月10日,動画の保存用に5個購入。近くの店でSPの32GBを購入して使った時はUSB2.0より遅くてガッカリでした。値段なりだなと。でもここで買った128GBは速度も速く満足しています。書き込み速度で速い時は100Mbps以上出てます、平均でも60Mbpsは維持をしてました。容量も128GBギリギリまで詰め込みましたがエラーも出ていません。安くて良い製品に出会えたなーと思っています。ただカラーが青しか無いのが残念です。他のSHOPから別の色も売っていましたが、評価が良く無かったので同じ色ばかりになっているので評価を一つ下げました。
-特に問題なし,goichi,5.0,2022年10月23日,特に気になる点もなく快適につかえてます。
-安かった、普通に使えてます,chakoやん,4.0,2022年9月23日,プリンター処分してコンビニで印刷するので購入。大したデータではないのでコスパ重視で、普通に使えてます。キャップ無くすのでこのタイプにしました。
-なるほど低価格,Amazon カスタマー,3.0,2022年10月25日,とても軽いし小さいです。スライドがぎこちない気がします。このお値段では妥協します。
-アクセスランプ,km,5.0,2022年9月25日,2022年9月時点で、まだLEDついてました。昨今はコストダウンで削除される風潮の中、まだあるだけでも本製品には価値があります。スライド式の中ではロックもましな方だと思います。
-ちょっと使いにくい,らっしー,3.0,2022年10月14日,スライドのツマミが本体背面にあるのですが、ノートpcで使用する場合に端子向きの関係で、スライドして端子を出す→メモリを裏返す→挿すという無駄な一手間がかかります。地味にめんどくさい。
-使いやすさ,ミントなダンボ,5.0,2022年9月20日,好きな色で選びましたが、使用に不便さは感じていません。
-安くて高品質　無難なメーカー,Amazonユーザー,4.0,2022年8月3日,今のところ支障なし
-耐久性はまだわかりません,塚田典子,4.0,2022年7月24日,まだ使い始めなので耐久性の評価はできませんが後は問題ありません！
-コスパは良いですね,akr,4.0,2022年7月16日,低価格で128GBは魅力的です。書き込み速度も普通。耐久性、使いやすさ、安定性は買ったばかりで不明なので★3つにしました。
-問題なし,Naoya,4.0,2022年7月12日,128GBはそうとう動画とか入れない限りいらないかも。
-問題なく使える,wid1029,4.0,2022年4月22日,イニシャライズをしただけ。
-他社製品との違い,ペロロハ,3.0,2022年6月9日,他社製品との違いはわかりません。たまたま、32Gのもので検索してヒットした。win起動用を作成して保存。
-大容量でコスパ良し,ハル,5.0,2022年6月16日,"■CrystalDiskMark 8.0.4 x64で2回計測・1回目（1枚目）：500MB・2回目（2枚目）：1GB64GB＆約1,000円でこれだけ性能出てたら十分です。細々したファイルを含むデータ約20GBの書込みでも16MB18MB/秒でした。"
-全然もんだいなしです。,マーボー,5.0,2022年5月23日,USBメモリを初めて購入するに値、色々調べぬいた結果シリコンパワー USBメモリ 128GB USB3.0 スライド式 Blaze B05 ネイビーブルーにたどり着きました。購入者レビューにもトラブルもなく、安定性が良いと評価されていましたので購入しました。同じ種類のカラーでブラックもあるそうですがあまり良い評価がなされていませんでしたので品質は同じだと思うのですが色違いのネイビーブルーを選びました。問題なしで気に入っています。
-特に問題なく使えてる。,与那原蓮平,5.0,2022年5月25日,自分のパソコンでは普通に認識しました。とくに問題なくつかえてるので、安く買えてよかった。
-使用した感想,masatoshi,4.0,2022年1月23日,特に問題なく使用できています。
-保証付きだったので購入,Touoka,4.0,2021年12月7日,保証はネットより登録必要なようだ。以前無保証品を購入したら、初めて使用して即故障。安いので、スライドはスムーズでないが、困ることはない。
-問題なく普通に使えますよ,Amazon カスタマー,4.0,2021年9月5日,キャップは無くす事が多いのでスライド式は非常に便利ですね。元々がマザーボードのBIOSアップデート用目的での購入なので高価な製品は必要ないし、ベンチマークをする必要もないのでしていませんが、アップデートも終わったのでドキュメント保存目的で使っています。どのPCでも問題なく認識できているし、特段遅いとも感じないのでこの価格なら十分満足じゃないですかね。USBメモリの類は沢山持っていますが、一つのUSBメモリを酷使しないこと。これがデータの破損もなく安全に長らく使うコツではないかと思っています。
-デザイン、収納式ソケットが使い易く、コスパGOOD!,ねこ_ニャー,4.0,2021年8月2日,パソコン入替に伴い、データ移行に使おうと思い購入しましたが、旧パソコンで認識できないので、新パソコン側のリカバリディスク作成用に使う予定です。デザインや収納式ソケットが良いと思います。
-Mac OS X 10.3.9で使えました、、、が、書き込み速度異常に遅い,ひでまろ,4.0,2020年12月23日,2021年3月13日　追記今時のUSBメモリにしては、読み書きの速度がもの凄く遅いです。特に書き込み速度は超がつく程遅いです。---インターネットこそ使っていませんが、今でも現役で活躍しているPower Book G4（Mac OS X 10.3.9）で使える周辺機器を探すのに苦労しています。こちらの商品は容量こそ少ないものの、Mac OS X 10.3.9に対応しているので、MacとWindowsでデータのやり取りをするのに重宝しています。良い点は、アクセスランプがあることと、USB端子が収納できるところです。悪い点は、読み書きのアクセス速度が遅いことと、横幅が広くて隣のポートに干渉して他の周辺機器が使えないことがあることです。
-WIN10とWin11で全く何の問題もない優れた商品です,NK,5.0,2021年11月22日,WIN10とWin11で全く何の問題もない優れた商品です。元々信頼しているメーカで今回も迷い無く購入し使用中です。耐久性は同社の他の同類商品を総合しての評価です。もっと安価な商品も沢山出ていますが品質や信頼性の問題が時に発生した過去の経験からも本品はお勧めできます。なおWin11に関しては使用環境で異なる性質が有りますので最新の情報などの勘案をお勧めします。
-安くて良い,レオナルド,4.0,2021年3月17日,32GBのUSBメモリーが、安くなりました。使いにくいため、超小型は避けました。ベンチマークはしてませんが、実用十分な早さだと思います。
-1回で読み取り不能,名無し,1.0,2022年9月8日,たったの１回で壊れました。金返せ！
-アクセスランプが有るのはgood！,きょろ爺,4.0,2021年3月29日,必要無いとの意見も有るが、自分はアクセスランプが有るのが良い。使い始めたばかりなので、耐久性は解らない。
-普通,浅野　,3.0,2021年8月6日,USBなので普通に使っています
-価格も安く、耐久性も問題なし,はむ,5.0,2020年12月12日,以前使っていたUSBメモリはキャップ式だったので、良くキャップを落として探すのに時間が掛かったり、結局行方不明になったりしましたが、この製品はキャップレスなのでストレスがありません。購入してから半年以上使用していますが、使い勝手に問題はなく、不具合も発生していません。128GBでこのお値段なので、大変満足しています。
-ストレス無く書き込み出来ました。,ビーマー９０,5.0,2022年8月21日,車のドライブレコーダーで、地図データの更新作業を行うため購入しました。ストレス無く書き込み出来ました。認識もフォーマットも問題ありません。
-書込速度が遅すぎる,すてぃあ,1.0,2022年6月22日,USB3.0とは思えないほど遅い。10年以上前に買ったUSB2.0が14M出るのに対しコレは10Mも出ない。別メーカのUSB3.0は30M以上出ているので本当にオススメしない。ハッキリ言ってシリコンパワーさんには失望しました。
-普通に使える,Amazonのお客様,5.0,2020年12月30日,細かいことは分かりませんが、普通に使えていますし、速度も速いと思います。出し入れがちょっと硬めです。キーホルダーを付けられるのがgood.
-普通のUSBメモリ,noel333,5.0,2021年3月12日,値段の割に安定しており、キャップがなく保管も容易なのが利点。とりあえずで欲しい方はどうぞ
-キャップレス,文学淑女,5.0,2020年6月13日,キャップの無いスライド式なので、キャップ紛失の心配がない。暗めのネイビーカラーも良い。テクニカルなことはわからんけど、問題なく使用できているのでOK。贅沢をいうなら、もっとカラーバリエーションが欲しい。緑とか赤とかオレンジとか水色とか。
-LEDで通信状態を確認できること。,Amazon カスタマー,5.0,2020年6月3日,回復ドライブ用に購入しました。ストレス無く安心して使用できました。メーカーの永久保証も安心。一度だけの使用なので耐久性については確認できませんがメーカー保証も有り不安はありません。
-普通に使えています。,Amazon カスタマー,5.0,2020年5月18日,破損、動作不良なく使用できています。
-特に問題無し,shin,4.0,2015年1月28日,特に問題ないが、もっと早いかと思ったがそうでもない。値段的に満足
-USB3.0としては遅めですが……,Aoi-Sora,5.0,2015年10月3日,私の購入した個体、環境では、書込最大約20MB/s、読込最大約40MB/sです。USB2.0ポートでも速めです。個人的な話ですが、以前使用していたUSB2.0のメモリはそれぞれ約6MB/s、約14MB/sくらいでしたので、とても満足しています。
-穴が小さい,匿名レビュワ,2.0,2015年4月14日,キャップレスでキャップを無くす心配は無くなりましたが、ストラップ等の紐を通す穴が非常に小さく入りません。紐クリップで胸ポケットに入れられず、不注意で本体ごと無くしそうなのが残念。
-残念です,M.f,1.0,2022年6月17日,新品の商品を購入したにもかかわらず、どう見ても一度開封されたものが届きました。残念です。星をつけないと投稿できないことも残念です。
-壊れる速度は一級品。,鯖。,1.0,2015年5月16日,同じメーカーの3.0対応のUSBでこれより安いものが１か月程度で認識しなくなったため、もう少し値段を上げようとこの商品を購入したが、3.0で読み込んだのは３回程度で、それ以降は他社製の2.0メモリに負けるほど遅くなった。二度とこのメーカーの商品は購入しないと心に決めた。
-2回故障で交換した。,弦之介,3.0,2019年1月3日,2年ほど前に購入したが、1回目は、読み込まなくなり新品交換対応2回目は、半年ほどで、本体が10分程度の使用で発熱し、速度は12MBしかでず新品交換対応近所の電気屋さんで買ったので交換がとても楽です。メーカーに返品する場合は片道送料がかかると思います。が、実際は調べてません。まあ、永久保証なので何度でも交換してやる（悪）バッファロー製を2つ持ってますが安定してます。シリコンパワーは価格が安い分、故障が多いと思う。2度と買わない。エレコムやバファローがまだいいと思う。
-8GB版を使うことは明らかな無駄,vojgac,5.0,2020年6月2日,ランダム書き込みが0.001MB／sしかないけどシーケンシャルなら安定しています。Windows10のインストールメディアに使うなら、高い8GBを使う固定観念を壊す必要があるかもしれません。Windows10のインストールイメージは圧縮されているので、実質的な転送速度はメディア速度の2倍です。
-コスパ良いです。,HIRO,4.0,2022年8月23日,キャップはスライド式なので安心感があり、コストパフォーマンスは良いです。またカラーバリエーションもあり質感も悪くないと思います。ただ仕様は64GBなのですが、実際の使用領域は約57.8GBでした。理論的には59.6GBなのでしょうがないかなあとは思いますが、ちょっぴり残念です。
-商品について,本田,5.0,2022年8月17日,他社との比較はできませんが、64ＧＢでこの値段は魅力です。ほかにも検討しましたが、色が気に入り購入いたしました。仕事で使う分には良いと思いますが、自宅で使うときは、色の種類がもう少し多いと楽しめるかと思います。
-気に入っています,Amazonカスタマー,5.0,2022年2月3日,色違いで２つ購入しましたが気に入っています。買って良かったです。
-OS の再インストール時に使用,poison,5.0,2021年8月19日,みなさんが言うほど、Sパワー商品でハズレを引いていないので、安ければ購入というスタンス。購入価格899円。色は好き。スライド式もよい。スピードも満足。まだ一回きりの使用だから耐久性とか不明。コスパよいと思う。
-私の環境では写真の通りでした(^o^),単身赴任９９年,5.0,2021年1月6日,USB3.0とうたいUSB2.0でしか動作しない商品が多いなかUSB3.0レベルで良かった(^_^;)
-さすがに3.0は早い,こぉ KE4471,5.0,2022年11月10日,これまで、あまり気にせずにＵＳＢ2.0製品を使っていたけれど、3.0になると画像のコピーが早くなって、大容量ファイルでも快適に作業ができる。タイムセールもあったけれど、2.0とあまり変わらない値段で買えたのはうれしい。
-コスパがいい,†藍猫†,5.0,2020年6月10日,コストパフォーマンスが良かったので、このサイズを選びました。故障率が低いメーカーなので、他のパーツ等もよく購入してます。
-使いやすかった,国分寺のグッピー,5.0,2021年3月2日,初めてUSB3.0を使いましたが、スピードがいいですね！読み取りが早くまた　書き込みも早くて最高です。読み書き時にアクセスランプ（LED）の点滅気に入ってます。
-ありません,健太,5.0,2022年7月16日,ありません
-スタイル,ayako,4.0,2022年8月28日,なんか、スタイリッシュで、スキと言う理由だけでこうにゅう
-I like them because they have a LED indicator which flashes ...,Geoff Barclay,5.0,2018年8月1日,I like them because they have a LED indicator which flashes when they are saving data which in my case are TV programs from a Strong SRT5432 PVR.
-Pendrive USB 3.0 (Gen 1) Silicon Power 16GB blu (tendente al viola),ludo,5.0,2017年9月21日,"Parto subito dalla conclusione:  ottima, tutto quello chiedevo da una chiavetta da 16GB 3.0Acquistata a Settembre 2017 a meno di 8euro. Ha una garanzia a vita attivabile sul sito della Silicon Power.Passando alle caratteristiche tecniche la chiavetta, considerando prezzo e capienza (meno le chiavettesono grandi, in GB, pi sono lente) ha un'alta velocit di lettura(100-110MB/s) e scrittura (20-21 MB/s costanti, provata sia copiandofile su Windows, che tramite la formattazione a basso livello che tramite CrystalDiskMark, [screen allegati]).E' lunga il giusto, non molto larga, elegante, usb retraibile senza cappuccio e con il led di funzionamento rosso.Sono utilizzabili 14,5GB, come  normale che sia (non solo per la moltiplicazione di 1024.. ma soprattutto per ilfile system, da non confondersi)Paragonandola con una Lexar (32gb, 3.0, quella arancione)  si pi lenta (20MB/s vs 48 in scrittura) ma non ha altri problemi (comeil dover aspettare secondi prima di copiare un file anhce da 1kb).Personalmente la consiglio senza esitazioni,  probabilmente una delle miglior chiavette da 16GB.Non conoscevo SiliconPower come marca, devo dire che mi ha notevolemente sorpreso e che la terr in considerazione peraltri acquisti-----------------------------------EDIT:Ne ho acquistata un'altra, premetto che era difettosa. Andava ad 8MB/s in scrittura massimo e presentava dei blocchi in scritturaHo chiesto la sostituzione e la seconda arrivatami era della stessa qualit delle 2 di cui sopra ho parlato.Pertanto consiglio pienamente questa chaivetta (a questo prezzo); se doveste avere problemi chiedete la sostituzione perch il prodotto ottimale  quello recensito sopra."
-Silicon Power (SP) Blaze B05 con indicatore luce LED,neluL,4.0,2017年11月7日,"Ho acquistato 3 chiavette Silicon Power (SP) Blaze B05 da 16 GB , 32GB e 64 GB. 4 stelle perche su Windows differenza tra spazio reale e spazio dichiarato e grande confronto con altre chiavette:- Silicon Power (SP) Blaze B05 da 16 GB in realita ha - 14.5 GB (indicatore luce BLU) altre chiavette ha un minimo di 14.9 GB- Silicon Power (SP) Blaze B05 da 32 GB in realita ha - 28.8 GB (indicatore luce ROSSO) altre chiavette ha un minimo di 29.8 GB- Silicon Power (SP) Blaze B05 da 64 GB in realita ha - 57.9 GB (indicatore luce ROSSO) altre chiavette ha un minimo di 59.5 GBAbastanza veloce nei trasferimenti , ben fatta , piccola e versatile con usb retraibile senza cappuccio e con il led di funzionamento.Supporta tutti tipi di Windows , Linux e Mac OS X ."
-una piacevole sorpresa,Daniele,4.0,2018年4月3日,"Non avevo mai provato questa marca e sinceramente ero un po' diffidente ma poi mi sono lasciato convincere dalle recensioni positive.Le prestazioni sono sicuramente sopra la media delle chiavette di pari prezzo,  7,50 per 16Gb 3.0 per cui mi ritengo soddisfatto.Se fosse stata pi veloce in scrittura (viaggia a circa circa 20/25 Mb/s) avrebbe meritato 5 stelle, in vece in lettura non mi lamento (circa 110/120 Mb/s)."
-super,Client d'Amazon,4.0,2018年8月9日,super cle  30mo s en ce qui me conserne mais je mes que quatre etoile pour la simple raison qu il ya que 117G au lieu de 128 c est un peut abuser
-come da descrizione - ok per il prezzo pagato,FV,4.0,2020年9月7日,come da descrizione - ok per il prezzo pagato
-Pretty good,thestarspirit,4.0,2016年6月23日,"I'm not overly crazy about the retract feature of this - I prefer the ones with the cap. But, it's still a good product and works very well."
-... pc at school maybe due to thers security works fine at,P Hughes,4.0,2016年4月28日,got for school work doesnot work on all pc at school maybe due to thers security works fine at home
-potente ma non bellissimo,danieleconte92,4.0,2016年3月24日,"la chiavetta, come si legge dalla descrizione, ha molti giga di memoria e quando la uso per scaricare file molto grandi risulta essere molto veloce nel copiare gli elementi! ottimo acquisto anche se vedendola dal vivo non sembra essere accattivante come dalle immagini riportate. tuttavia perfetta nella sua funzionalit!"
-Mi piace,luca boggian,4.0,2018年1月25日,L'estetica  apprezzabile e le caratteristiche di questa chiavetta corrispondono alle mie esigenze. La consiglio a tutti coloro che hanno bisogno di una unit esterna senza spendere eccessivamente.
-Parece rpida,Anna Genovs,5.0,2018年5月28日,"Aunque hace unas horas que ha llegado, con buen embalaje y rpido,  de momento puedo decir que es rpida y tiene el aspecto de durabilidad, amn de un bonito y prctico diseo: no lleva tapa, sino que el conector sale y entra desde un control deslizante. Luz LED. Buen precio. Me ha gustado!"
-Semplice e pratica.,robertob25,3.0,2018年1月31日,"Estetica discreta, funziona bene, peccato che la qualit della plastica potrebbe essere migliore.Giudizio finale quasi buono soprattutto per il prezzo."
-Ottimo rapporto qualit prezzo,Niccol,5.0,2017年12月20日,"Niente da dire di particolare. Il prodotto per un prezzo veramente modesto (pagato circa 7,50) arriva con spedizione PRIME, USB 3.0 e 16GB di memoria.La discriminante secondo me rispetto ad altri modelli  stata l'assenza di un ""tappo"" e la presenza di un meccanismo retrattile. Io ho sempre perso i tappi delle chiavette e trovo migliore questo meccanismo."
-Three Stars,DarrellM,3.0,2017年4月28日,17 MB/s
-Silicon Power Blaze B05 - 16 Gb.,ico,4.0,2017年3月27日,Silicon Power Blaze B05 - chiavetta da 16 Gb. messa alla prova caricandola al massimo diverse volte e diverse volte formattandola - buon rapporto qualit/prezzo.
-Ottima velocit di scrittura,Fox65,4.0,2015年12月1日,"La velocit di lettura ma soprattutto di scrittura di questa chiavetta  ottima. Purtroppo le plastiche della chiavetta non sono il top, ma per la velocit di scrittura  senz'altro consigliabile."
-OTTIMA,Fulvio,4.0,2016年4月8日,pen drive ottima con la normale velocit di una 3.0ottimo rapporto qualit prezzo (32gb)do quattro stelle perch risulta poco solida  (appare molto plasticosa)
-Silicon Power 128GB Speicherstick USB 3.0 blau,comwolf,5.0,2016年11月15日,pnktliche Lieferung und angemessene Verpackung. Der Stick ist ausreichen schnell und fr meinen Bedarf vollkommen ausreichend. Von Silikon Power habe ich schone mehrere Festplatten und Sticks im Einsatz und bin damit sehr zufrieden.
-buono,FRANCESCA,4.0,2016年2月6日,"buon acquisto, arrivato subito, fa il suo lavoro e quindi la consiglio a tutti quelli che stanno cercando un prodotto come questo"
-"prodotto utile, veloce ed elegante",RAFFAELE,5.0,2017年11月15日,"Ottimo prodotto quando lo inserisco nel pc mi apre subito I file che ho caricato, quindi veloce, elegante, utile per la mia attivit lavorativa di archiviazione e aggiornamento a buon prezzo, spedito nei tempi stabiliti. Grazie"
-Velocissima,Stefano,5.0,2016年5月24日,"Chiavetta molto veloce sia in lettura che scrittura.La velocit in scrittura arriva anche a 15 MB/s. Esteticamente molto bella e resistente, con il connettore USB chescompare all'interno della chiavetta. Una delle migliori chiavette in circolazione e con un'ottimo rapporto qualit prezzo!"
-buon prodotto,AldoNet53,5.0,2018年6月12日,il prodotto risulta perfettamente identico a quanto descritto sul sito  il materiale  buono e funziona perfettamente il rapporto qualit prezzo fra i migliori.
-Niente male,Glauco,5.0,2017年4月3日,"Usata su diversi pc sempre compatibile.sul mio fisso Ibm core i5,  risultata utilizzabile perfettamente come USB3.0Non ho fatto test di velocit perch non sono particolrmente ineteressato.In generale un buon rapporto qualit/prezzo."
-Gradimento,ROBBY45,5.0,2018年5月20日,"ottimo rapporto qualit / prezzo , molto comodo il sistema di apertura , vivamente consigliato , consegna rapida, come sempre un servizio eccellente."
-Ottima,Mario,5.0,2017年9月11日,"Veloce, efficiente, comoda. Certo non  piccolissima, ma non  detto che sia un difetto. Inoltre non ha una forma a ""bomb"", quindi si adatta perfettamente anche nelle multiprese."
-ottima,Emanuele,5.0,2017年12月17日,silicon power la conoscevo gi .... ho preso questa chiavetta per mia moglie e si trova benissimo.comoda senza cappuccio e con led che indica il funzionamento
-conforme,Fabio,5.0,2019年1月1日,"prodotto come da descrizione, arrivato nei tempi previsti e a distanza di mesi ancora soddisfattoconsiglio"
-Durata ridicola,Giuseppe 1970,1.0,2019年9月12日,Inutilizzabile dopo 1 anno. Costa poco ma sono soldi buttati.
-Pendrive Silicon Power,Maffei Simone,5.0,2017年7月2日,"Questa pennina con i suoi 122 mb/s in lettura e 24 mb/s in scrittura  veramente molto veloce e non ho riscontrato problemi d'affidabilit, consigliata"
-Ottimo prodotto,Angelo,5.0,2017年11月25日,"Consigliato, rispecchia tutte le caratteristiche indicate nella descrizione. Possibilit di resgitrazione al sito che ti garantisce la garanzia a vita."
-da Comprare!,Biagio,5.0,2017年9月13日,Comprata per montare su una radio per ascoltare Mp3 e devo dire che si sta comportato veramente bene. Prodotto Veloce e robusto
-NULLA DA ECCEPIRE,MIKE ZANOTTI,5.0,2017年11月6日,Fa esattamente quello che gli viene chiesto. Veloce nei trasferimenti e ben fatta. piccola e versatile. Carina anche la colorazione.
-Buona Qualit,Cliente Amazon,5.0,2017年7月7日,"Veloce trasmissione dati e led lampeggia quando scrive anche se molto piccolo, la plastica  di buona qualit e comodit il clip."
-chiavetta,Elena,5.0,2017年7月21日,"Acquistato questa chiavetta e davvero  ottima, non posso che dare 5 stelle. Esterno come da fotografia. Arrivata nel tempo indicato. Consigliata"
-Pessimo prodotto,Xenio,1.0,2017年3月16日,Non riesco pi a formattare il dispositivo. Mi dice che la chiavetta  protetta quando io non ho messo nessuna protezione. Ho tentato in tutti i modi di formattarla ma niente. Sono rimasto estremamente deluso.  un peccato perch  carino anche il colore.
-Ottimo prodotto,Besart,5.0,2019年7月18日,Ottimo prodotto
-ottimo usb,ciro,5.0,2016年5月9日,utilizzatto per lo piu' per vedere i film con la tv svolge egreggiamente il suo compito e copia i fim dal pc in modo veloce
-Ottimo,Darius,5.0,2019年3月7日,Perfetto
-Indignato,Antony,1.0,2016年3月27日,Non compratelo  fatta con materiali di scarsissima qualit.C' scritto 32GB ma ne sono solo 29GB.Non acquistatela per nessun motivo!!!
-Five Stars,paul watson,5.0,2015年12月13日,Works ok
-Ottimo Prodotto!,Giovanni,5.0,2016年1月9日,"Soddisfattissimo, chiavetta compatta e ben costruita, velocit come da attese, Silicon Power  una garanzia, inoltre, dulcis in fundo, garantita a vita!!!"
+基本仕様が洗練されていて良い,湿気,4,2022年10月15日,"デザインに惹かれて、価格を見ると比較的安価だったので購入しました。デザインだけでなく、基本性能や使い勝手も良かったです。まず、基本情報から見ていきましょう。生産国はMade In Taiwanで台湾製です。（シリコンパワーですし、当然と言えば当然ですね）適合規格はパッケージ表記曰く、CE,FCC,KCC,,BSMI,RoHSなど。また、WEEEマークやグリーンドットもあります。シリコンパワーの他製品同様、日本のVCCIマークはやはりありません。さて、開封…シリコンパワー製品はどうにもパッケージの開け方が分かりません。（この手の製品の常で、ハサミで真ん中あたりを切っているのですが、パッケージの内側にも説明書きがある…）それは置いておいて、本体を取り出すと大きさは大体54×20×9(mm)程度。紺色が綺麗です。ストラップホールはシンメトリーに付いており、使わずともデザインに貢献しているような感じ。スライドは少し固めで、機器に差し込む際に戻ってしまうということもなさそうです。適合規格の刻印が本体にもしっかりとありますが、何故かCE,FCC,BSMIの刻印は２か所にあります。（どうでもいいと言えばどうでもいいんですが）実際にPCに差し込んで使ってみましょう…と、青い光が。特に購入時商品説明にはありませんでしたが、なんとアクセスランプが付いています。控えめに青いランプが接続時には点灯、データ転送時は点滅する仕様になっています。要らないという人も一定数いるかもしれませんが、あった方が良いという人は多いはず。これは１つポイントですね。次に、参考データとしてCrystal Disk Markで速度測定します。なお、Ver.7とVer.8の２パターンで測定しました。結果はどちらもほとんど同様で誤差の範囲。Sequential Read（シーケンシャル読込）で80MB/s前後、Random Read（ランダム読込）で5~10MB/s前後。Sequential Write（シーケンシャル書込）で70MB/s前後、Random Write（ランダム書込）で1.5MB/s前後。USBメモリとして、読込速度は決して速い方ではありませんが、実用的な速度が出ていると思います。書込速度に関しては、ランダムで1.5MB/sは良い方でしょう。東芝（現：キオクシア）製なんかだと、これが苦手で0.0いくらとかになる場合が多いのですが、この製品の速度ならササっと書込めます。注記として、私は本製品の128GBを購入しましたが初期フォーマットはFAT32でした。シリコンパワー製品は、基本的にFAT32が初期フォーマットなようです。私はexFATでフォーマットして使用しています。FAT32では、1ファイルあたり4GBまでという上限がありますので、大容量のファイルを扱う方は再フォーマットをお忘れなきよう。また、Crystal Disk Markによる測定は、アロケーションユニットサイズ128KBのフォーマットで行っています。使用コンピュータのスペックは大まかに「CPU：Intel Core i7-9750H」「メモリ：8GB」「Cドライブ：WDのSN520」という構成です。測定結果は、以上の情報も念頭に入れて参考になさってください。ここまで見てきて、特にこれと言った難点はありません。残る心配すべき点は耐久性ですが、これは個体差や使用環境で変わるのでなんとも言えません。発熱はUSBメモリの中でもどちらかと言うと少ない方で、放熱性にも特に問題は感じられません。ですから、恐らくは設計に問題はないと思います。あとは、シリコンパワーが使用しているNANDメモリの質次第。とりあえず、手持ちの本製品が故障した際には追記したいと思います。以上、見た目が受け付けないだとか、アクセスランプ排斥派だとか、キャップ式以外認めないだとかいうのでなければ、お勧めしたい製品です。普段は東芝（現：キオクシア）のスライド式を使うのですが、価格を考えると、この製品をリピートするかもしれません。総合的に見て、良い製品だと思います。"
+個体差？ランダム書き込みが遅い,める,4,2022年10月31日,2022/10/30に購入し、Windows 11でベンチ測定した値ですが、ランダム書き込みが遅い感じ。所有していた同じシリコンパワーの「SP032GBUF3B02V1K」のランダム書き込みは遅くありません。※写真1枚目が本製品で、2枚目が上記製品ランダム書き込み以外は本製品の方がいい数値なんですけどねぇ・・・個体差なのかもしれません。キャップレスに固執しないようであれば、この製品ではなく上記製品を検討した方がいいかも。そこまで使用頻度は高くない予定ですが、もし不具合や故障等が出たらまた書き込みします。
+使いやすいコスパ良いUSB,カスタマー,5,2022年11月14日,熱などを持つことなく、快適に使えています。キャップレスなのもグッドポイント
+お買い得でした,masa,4,2022年10月10日,動画の保存用に5個購入。近くの店でSPの32GBを購入して使った時はUSB2.0より遅くてガッカリでした。値段なりだなと。でもここで買った128GBは速度も速く満足しています。書き込み速度で速い時は100Mbps以上出てます、平均でも60Mbpsは維持をしてました。容量も128GBギリギリまで詰め込みましたがエラーも出ていません。安くて良い製品に出会えたなーと思っています。ただカラーが青しか無いのが残念です。他のSHOPから別の色も売っていましたが、評価が良く無かったので同じ色ばかりになっているので評価を一つ下げました。
+特に問題なし,goichi,5,2022年10月23日,特に気になる点もなく快適につかえてます。
+安かった、普通に使えてます,chakoやん,4,2022年9月23日,プリンター処分してコンビニで印刷するので購入。大したデータではないのでコスパ重視で、普通に使えてます。キャップ無くすのでこのタイプにしました。
+なるほど低価格,Amazon カスタマー,3,2022年10月25日,とても軽いし小さいです。スライドがぎこちない気がします。このお値段では妥協します。
+アクセスランプ,km,5,2022年9月25日,2022年9月時点で、まだLEDついてました。昨今はコストダウンで削除される風潮の中、まだあるだけでも本製品には価値があります。スライド式の中ではロックもましな方だと思います。
+ちょっと使いにくい,らっしー,3,2022年10月14日,スライドのツマミが本体背面にあるのですが、ノートpcで使用する場合に端子向きの関係で、スライドして端子を出す→メモリを裏返す→挿すという無駄な一手間がかかります。地味にめんどくさい。
+使いやすさ,ミントなダンボ,5,2022年9月20日,好きな色で選びましたが、使用に不便さは感じていません。
+安くて高品質　無難なメーカー,Amazonユーザー,4,2022年8月3日,今のところ支障なし
+耐久性はまだわかりません,塚田典子,4,2022年7月24日,まだ使い始めなので耐久性の評価はできませんが後は問題ありません！
+コスパは良いですね,akr,4,2022年7月16日,低価格で128GBは魅力的です。書き込み速度も普通。耐久性、使いやすさ、安定性は買ったばかりで不明なので★3つにしました。
+問題なし,Naoya,4,2022年7月12日,128GBはそうとう動画とか入れない限りいらないかも。
+問題なく使える,wid1029,4,2022年4月22日,イニシャライズをしただけ。
+他社製品との違い,ペロロハ,3,2022年6月9日,他社製品との違いはわかりません。たまたま、32Gのもので検索してヒットした。win起動用を作成して保存。
+大容量でコスパ良し,ハル,5,2022年6月16日,"■CrystalDiskMark 8.0.4 x64で2回計測・1回目（1枚目）：500MB・2回目（2枚目）：1GB64GB＆約1,000円でこれだけ性能出てたら十分です。細々したファイルを含むデータ約20GBの書込みでも16MB18MB/秒でした。"
+全然もんだいなしです。,マーボー,5,2022年5月23日,USBメモリを初めて購入するに値、色々調べぬいた結果シリコンパワー USBメモリ 128GB USB3.0 スライド式 Blaze B05 ネイビーブルーにたどり着きました。購入者レビューにもトラブルもなく、安定性が良いと評価されていましたので購入しました。同じ種類のカラーでブラックもあるそうですがあまり良い評価がなされていませんでしたので品質は同じだと思うのですが色違いのネイビーブルーを選びました。問題なしで気に入っています。
+特に問題なく使えてる。,与那原蓮平,5,2022年5月25日,自分のパソコンでは普通に認識しました。とくに問題なくつかえてるので、安く買えてよかった。
+使用した感想,masatoshi,4,2022年1月23日,特に問題なく使用できています。
+保証付きだったので購入,Touoka,4,2021年12月7日,保証はネットより登録必要なようだ。以前無保証品を購入したら、初めて使用して即故障。安いので、スライドはスムーズでないが、困ることはない。
+問題なく普通に使えますよ,Amazon カスタマー,4,2021年9月5日,キャップは無くす事が多いのでスライド式は非常に便利ですね。元々がマザーボードのBIOSアップデート用目的での購入なので高価な製品は必要ないし、ベンチマークをする必要もないのでしていませんが、アップデートも終わったのでドキュメント保存目的で使っています。どのPCでも問題なく認識できているし、特段遅いとも感じないのでこの価格なら十分満足じゃないですかね。USBメモリの類は沢山持っていますが、一つのUSBメモリを酷使しないこと。これがデータの破損もなく安全に長らく使うコツではないかと思っています。
+デザイン、収納式ソケットが使い易く、コスパGOOD!,ねこ_ニャー,4,2021年8月2日,パソコン入替に伴い、データ移行に使おうと思い購入しましたが、旧パソコンで認識できないので、新パソコン側のリカバリディスク作成用に使う予定です。デザインや収納式ソケットが良いと思います。
+Mac OS X 10.3.9で使えました、、、が、書き込み速度異常に遅い,ひでまろ,4,2020年12月23日,2021年3月13日　追記今時のUSBメモリにしては、読み書きの速度がもの凄く遅いです。特に書き込み速度は超がつく程遅いです。---インターネットこそ使っていませんが、今でも現役で活躍しているPower Book G4（Mac OS X 10.3.9）で使える周辺機器を探すのに苦労しています。こちらの商品は容量こそ少ないものの、Mac OS X 10.3.9に対応しているので、MacとWindowsでデータのやり取りをするのに重宝しています。良い点は、アクセスランプがあることと、USB端子が収納できるところです。悪い点は、読み書きのアクセス速度が遅いことと、横幅が広くて隣のポートに干渉して他の周辺機器が使えないことがあることです。
+WIN10とWin11で全く何の問題もない優れた商品です,NK,5,2021年11月22日,WIN10とWin11で全く何の問題もない優れた商品です。元々信頼しているメーカで今回も迷い無く購入し使用中です。耐久性は同社の他の同類商品を総合しての評価です。もっと安価な商品も沢山出ていますが品質や信頼性の問題が時に発生した過去の経験からも本品はお勧めできます。なおWin11に関しては使用環境で異なる性質が有りますので最新の情報などの勘案をお勧めします。
+安くて良い,レオナルド,4,2021年3月17日,32GBのUSBメモリーが、安くなりました。使いにくいため、超小型は避けました。ベンチマークはしてませんが、実用十分な早さだと思います。
+1回で読み取り不能,名無し,1,2022年9月8日,たったの１回で壊れました。金返せ！
+アクセスランプが有るのはgood！,きょろ爺,4,2021年3月29日,必要無いとの意見も有るが、自分はアクセスランプが有るのが良い。使い始めたばかりなので、耐久性は解らない。
+普通,浅野　,3,2021年8月6日,USBなので普通に使っています
+価格も安く、耐久性も問題なし,はむ,5,2020年12月12日,以前使っていたUSBメモリはキャップ式だったので、良くキャップを落として探すのに時間が掛かったり、結局行方不明になったりしましたが、この製品はキャップレスなのでストレスがありません。購入してから半年以上使用していますが、使い勝手に問題はなく、不具合も発生していません。128GBでこのお値段なので、大変満足しています。
+ストレス無く書き込み出来ました。,ビーマー９０,5,2022年8月21日,車のドライブレコーダーで、地図データの更新作業を行うため購入しました。ストレス無く書き込み出来ました。認識もフォーマットも問題ありません。
+書込速度が遅すぎる,すてぃあ,1,2022年6月22日,USB3.0とは思えないほど遅い。10年以上前に買ったUSB2.0が14M出るのに対しコレは10Mも出ない。別メーカのUSB3.0は30M以上出ているので本当にオススメしない。ハッキリ言ってシリコンパワーさんには失望しました。
+普通に使える,Amazonのお客様,5,2020年12月30日,細かいことは分かりませんが、普通に使えていますし、速度も速いと思います。出し入れがちょっと硬めです。キーホルダーを付けられるのがgood.
+普通のUSBメモリ,noel333,5,2021年3月12日,値段の割に安定しており、キャップがなく保管も容易なのが利点。とりあえずで欲しい方はどうぞ
+キャップレス,文学淑女,5,2020年6月13日,キャップの無いスライド式なので、キャップ紛失の心配がない。暗めのネイビーカラーも良い。テクニカルなことはわからんけど、問題なく使用できているのでOK。贅沢をいうなら、もっとカラーバリエーションが欲しい。緑とか赤とかオレンジとか水色とか。
+LEDで通信状態を確認できること。,Amazon カスタマー,5,2020年6月3日,回復ドライブ用に購入しました。ストレス無く安心して使用できました。メーカーの永久保証も安心。一度だけの使用なので耐久性については確認できませんがメーカー保証も有り不安はありません。
+普通に使えています。,Amazon カスタマー,5,2020年5月18日,破損、動作不良なく使用できています。
+特に問題無し,shin,4,2015年1月28日,特に問題ないが、もっと早いかと思ったがそうでもない。値段的に満足
+USB3.0としては遅めですが……,Aoi-Sora,5,2015年10月3日,私の購入した個体、環境では、書込最大約20MB/s、読込最大約40MB/sです。USB2.0ポートでも速めです。個人的な話ですが、以前使用していたUSB2.0のメモリはそれぞれ約6MB/s、約14MB/sくらいでしたので、とても満足しています。
+穴が小さい,匿名レビュワ,2,2015年4月14日,キャップレスでキャップを無くす心配は無くなりましたが、ストラップ等の紐を通す穴が非常に小さく入りません。紐クリップで胸ポケットに入れられず、不注意で本体ごと無くしそうなのが残念。
+残念です,M.f,1,2022年6月17日,新品の商品を購入したにもかかわらず、どう見ても一度開封されたものが届きました。残念です。星をつけないと投稿できないことも残念です。
+壊れる速度は一級品。,鯖。,1,2015年5月16日,同じメーカーの3.0対応のUSBでこれより安いものが１か月程度で認識しなくなったため、もう少し値段を上げようとこの商品を購入したが、3.0で読み込んだのは３回程度で、それ以降は他社製の2.0メモリに負けるほど遅くなった。二度とこのメーカーの商品は購入しないと心に決めた。
+2回故障で交換した。,弦之介,3,2019年1月3日,2年ほど前に購入したが、1回目は、読み込まなくなり新品交換対応2回目は、半年ほどで、本体が10分程度の使用で発熱し、速度は12MBしかでず新品交換対応近所の電気屋さんで買ったので交換がとても楽です。メーカーに返品する場合は片道送料がかかると思います。が、実際は調べてません。まあ、永久保証なので何度でも交換してやる（悪）バッファロー製を2つ持ってますが安定してます。シリコンパワーは価格が安い分、故障が多いと思う。2度と買わない。エレコムやバファローがまだいいと思う。
+8GB版を使うことは明らかな無駄,vojgac,5,2020年6月2日,ランダム書き込みが0.001MB／sしかないけどシーケンシャルなら安定しています。Windows10のインストールメディアに使うなら、高い8GBを使う固定観念を壊す必要があるかもしれません。Windows10のインストールイメージは圧縮されているので、実質的な転送速度はメディア速度の2倍です。
+コスパ良いです。,HIRO,4,2022年8月23日,キャップはスライド式なので安心感があり、コストパフォーマンスは良いです。またカラーバリエーションもあり質感も悪くないと思います。ただ仕様は64GBなのですが、実際の使用領域は約57.8GBでした。理論的には59.6GBなのでしょうがないかなあとは思いますが、ちょっぴり残念です。
+商品について,本田,5,2022年8月17日,他社との比較はできませんが、64ＧＢでこの値段は魅力です。ほかにも検討しましたが、色が気に入り購入いたしました。仕事で使う分には良いと思いますが、自宅で使うときは、色の種類がもう少し多いと楽しめるかと思います。
+気に入っています,Amazonカスタマー,5,2022年2月3日,色違いで２つ購入しましたが気に入っています。買って良かったです。
+OS の再インストール時に使用,poison,5,2021年8月19日,みなさんが言うほど、Sパワー商品でハズレを引いていないので、安ければ購入というスタンス。購入価格899円。色は好き。スライド式もよい。スピードも満足。まだ一回きりの使用だから耐久性とか不明。コスパよいと思う。
+私の環境では写真の通りでした(^o^),単身赴任９９年,5,2021年1月6日,USB3.0とうたいUSB2.0でしか動作しない商品が多いなかUSB3.0レベルで良かった(^_^;)
+さすがに3.0は早い,こぉ KE4471,5,2022年11月10日,これまで、あまり気にせずにＵＳＢ2.0製品を使っていたけれど、3.0になると画像のコピーが早くなって、大容量ファイルでも快適に作業ができる。タイムセールもあったけれど、2.0とあまり変わらない値段で買えたのはうれしい。
+コスパがいい,†藍猫†,5,2020年6月10日,コストパフォーマンスが良かったので、このサイズを選びました。故障率が低いメーカーなので、他のパーツ等もよく購入してます。
+使いやすかった,国分寺のグッピー,5,2021年3月2日,初めてUSB3.0を使いましたが、スピードがいいですね！読み取りが早くまた　書き込みも早くて最高です。読み書き時にアクセスランプ（LED）の点滅気に入ってます。
+ありません,健太,5,2022年7月16日,ありません
+スタイル,ayako,4,2022年8月28日,なんか、スタイリッシュで、スキと言う理由だけでこうにゅう
+I like them because they have a LED indicator which flashes ...,Geoff Barclay,5,2018年8月1日,I like them because they have a LED indicator which flashes when they are saving data which in my case are TV programs from a Strong SRT5432 PVR.
+Pendrive USB 3.0 (Gen 1) Silicon Power 16GB blu (tendente al viola),ludo,5,2017年9月21日,"Parto subito dalla conclusione:  ottima, tutto quello chiedevo da una chiavetta da 16GB 3.0Acquistata a Settembre 2017 a meno di 8euro. Ha una garanzia a vita attivabile sul sito della Silicon Power.Passando alle caratteristiche tecniche la chiavetta, considerando prezzo e capienza (meno le chiavettesono grandi, in GB, pi sono lente) ha un'alta velocit di lettura(100-110MB/s) e scrittura (20-21 MB/s costanti, provata sia copiandofile su Windows, che tramite la formattazione a basso livello che tramite CrystalDiskMark, [screen allegati]).E' lunga il giusto, non molto larga, elegante, usb retraibile senza cappuccio e con il led di funzionamento rosso.Sono utilizzabili 14,5GB, come  normale che sia (non solo per la moltiplicazione di 1024.. ma soprattutto per ilfile system, da non confondersi)Paragonandola con una Lexar (32gb, 3.0, quella arancione)  si pi lenta (20MB/s vs 48 in scrittura) ma non ha altri problemi (comeil dover aspettare secondi prima di copiare un file anhce da 1kb).Personalmente la consiglio senza esitazioni,  probabilmente una delle miglior chiavette da 16GB.Non conoscevo SiliconPower come marca, devo dire che mi ha notevolemente sorpreso e che la terr in considerazione peraltri acquisti-----------------------------------EDIT:Ne ho acquistata un'altra, premetto che era difettosa. Andava ad 8MB/s in scrittura massimo e presentava dei blocchi in scritturaHo chiesto la sostituzione e la seconda arrivatami era della stessa qualit delle 2 di cui sopra ho parlato.Pertanto consiglio pienamente questa chaivetta (a questo prezzo); se doveste avere problemi chiedete la sostituzione perch il prodotto ottimale  quello recensito sopra."
+Silicon Power (SP) Blaze B05 con indicatore luce LED,neluL,4,2017年11月7日,"Ho acquistato 3 chiavette Silicon Power (SP) Blaze B05 da 16 GB , 32GB e 64 GB. 4 stelle perche su Windows differenza tra spazio reale e spazio dichiarato e grande confronto con altre chiavette:- Silicon Power (SP) Blaze B05 da 16 GB in realita ha - 14.5 GB (indicatore luce BLU) altre chiavette ha un minimo di 14.9 GB- Silicon Power (SP) Blaze B05 da 32 GB in realita ha - 28.8 GB (indicatore luce ROSSO) altre chiavette ha un minimo di 29.8 GB- Silicon Power (SP) Blaze B05 da 64 GB in realita ha - 57.9 GB (indicatore luce ROSSO) altre chiavette ha un minimo di 59.5 GBAbastanza veloce nei trasferimenti , ben fatta , piccola e versatile con usb retraibile senza cappuccio e con il led di funzionamento.Supporta tutti tipi di Windows , Linux e Mac OS X ."
+una piacevole sorpresa,Daniele,4,2018年4月3日,"Non avevo mai provato questa marca e sinceramente ero un po' diffidente ma poi mi sono lasciato convincere dalle recensioni positive.Le prestazioni sono sicuramente sopra la media delle chiavette di pari prezzo,  7,50 per 16Gb 3.0 per cui mi ritengo soddisfatto.Se fosse stata pi veloce in scrittura (viaggia a circa circa 20/25 Mb/s) avrebbe meritato 5 stelle, in vece in lettura non mi lamento (circa 110/120 Mb/s)."
+super,Client d'Amazon,4,2018年8月9日,super cle  30mo s en ce qui me conserne mais je mes que quatre etoile pour la simple raison qu il ya que 117G au lieu de 128 c est un peut abuser
+come da descrizione - ok per il prezzo pagato,FV,4,2020年9月7日,come da descrizione - ok per il prezzo pagato
+Pretty good,thestarspirit,4,2016年6月23日,"I'm not overly crazy about the retract feature of this - I prefer the ones with the cap. But, it's still a good product and works very well."
+... pc at school maybe due to thers security works fine at,P Hughes,4,2016年4月28日,got for school work doesnot work on all pc at school maybe due to thers security works fine at home
+potente ma non bellissimo,danieleconte92,4,2016年3月24日,"la chiavetta, come si legge dalla descrizione, ha molti giga di memoria e quando la uso per scaricare file molto grandi risulta essere molto veloce nel copiare gli elementi! ottimo acquisto anche se vedendola dal vivo non sembra essere accattivante come dalle immagini riportate. tuttavia perfetta nella sua funzionalit!"
+Mi piace,luca boggian,4,2018年1月25日,L'estetica  apprezzabile e le caratteristiche di questa chiavetta corrispondono alle mie esigenze. La consiglio a tutti coloro che hanno bisogno di una unit esterna senza spendere eccessivamente.
+Parece rpida,Anna Genovs,5,2018年5月28日,"Aunque hace unas horas que ha llegado, con buen embalaje y rpido,  de momento puedo decir que es rpida y tiene el aspecto de durabilidad, amn de un bonito y prctico diseo: no lleva tapa, sino que el conector sale y entra desde un control deslizante. Luz LED. Buen precio. Me ha gustado!"
+Semplice e pratica.,robertob25,3,2018年1月31日,"Estetica discreta, funziona bene, peccato che la qualit della plastica potrebbe essere migliore.Giudizio finale quasi buono soprattutto per il prezzo."
+Ottimo rapporto qualit prezzo,Niccol,5,2017年12月20日,"Niente da dire di particolare. Il prodotto per un prezzo veramente modesto (pagato circa 7,50) arriva con spedizione PRIME, USB 3.0 e 16GB di memoria.La discriminante secondo me rispetto ad altri modelli  stata l'assenza di un ""tappo"" e la presenza di un meccanismo retrattile. Io ho sempre perso i tappi delle chiavette e trovo migliore questo meccanismo."
+Three Stars,DarrellM,3,2017年4月28日,17 MB/s
+Silicon Power Blaze B05 - 16 Gb.,ico,4,2017年3月27日,Silicon Power Blaze B05 - chiavetta da 16 Gb. messa alla prova caricandola al massimo diverse volte e diverse volte formattandola - buon rapporto qualit/prezzo.
+Ottima velocit di scrittura,Fox65,4,2015年12月1日,"La velocit di lettura ma soprattutto di scrittura di questa chiavetta  ottima. Purtroppo le plastiche della chiavetta non sono il top, ma per la velocit di scrittura  senz'altro consigliabile."
+OTTIMA,Fulvio,4,2016年4月8日,pen drive ottima con la normale velocit di una 3.0ottimo rapporto qualit prezzo (32gb)do quattro stelle perch risulta poco solida  (appare molto plasticosa)
+Silicon Power 128GB Speicherstick USB 3.0 blau,comwolf,5,2016年11月15日,pnktliche Lieferung und angemessene Verpackung. Der Stick ist ausreichen schnell und fr meinen Bedarf vollkommen ausreichend. Von Silikon Power habe ich schone mehrere Festplatten und Sticks im Einsatz und bin damit sehr zufrieden.
+buono,FRANCESCA,4,2016年2月6日,"buon acquisto, arrivato subito, fa il suo lavoro e quindi la consiglio a tutti quelli che stanno cercando un prodotto come questo"
+"prodotto utile, veloce ed elegante",RAFFAELE,5,2017年11月15日,"Ottimo prodotto quando lo inserisco nel pc mi apre subito I file che ho caricato, quindi veloce, elegante, utile per la mia attivit lavorativa di archiviazione e aggiornamento a buon prezzo, spedito nei tempi stabiliti. Grazie"
+Velocissima,Stefano,5,2016年5月24日,"Chiavetta molto veloce sia in lettura che scrittura.La velocit in scrittura arriva anche a 15 MB/s. Esteticamente molto bella e resistente, con il connettore USB chescompare all'interno della chiavetta. Una delle migliori chiavette in circolazione e con un'ottimo rapporto qualit prezzo!"
+buon prodotto,AldoNet53,5,2018年6月12日,il prodotto risulta perfettamente identico a quanto descritto sul sito  il materiale  buono e funziona perfettamente il rapporto qualit prezzo fra i migliori.
+Niente male,Glauco,5,2017年4月3日,"Usata su diversi pc sempre compatibile.sul mio fisso Ibm core i5,  risultata utilizzabile perfettamente come USB3.0Non ho fatto test di velocit perch non sono particolrmente ineteressato.In generale un buon rapporto qualit/prezzo."
+Gradimento,ROBBY45,5,2018年5月20日,"ottimo rapporto qualit / prezzo , molto comodo il sistema di apertura , vivamente consigliato , consegna rapida, come sempre un servizio eccellente."
+Ottima,Mario,5,2017年9月11日,"Veloce, efficiente, comoda. Certo non  piccolissima, ma non  detto che sia un difetto. Inoltre non ha una forma a ""bomb"", quindi si adatta perfettamente anche nelle multiprese."
+ottima,Emanuele,5,2017年12月17日,silicon power la conoscevo gi .... ho preso questa chiavetta per mia moglie e si trova benissimo.comoda senza cappuccio e con led che indica il funzionamento
+conforme,Fabio,5,2019年1月1日,"prodotto come da descrizione, arrivato nei tempi previsti e a distanza di mesi ancora soddisfattoconsiglio"
+Durata ridicola,Giuseppe 1970,1,2019年9月12日,Inutilizzabile dopo 1 anno. Costa poco ma sono soldi buttati.
+Pendrive Silicon Power,Maffei Simone,5,2017年7月2日,"Questa pennina con i suoi 122 mb/s in lettura e 24 mb/s in scrittura  veramente molto veloce e non ho riscontrato problemi d'affidabilit, consigliata"
+Ottimo prodotto,Angelo,5,2017年11月25日,"Consigliato, rispecchia tutte le caratteristiche indicate nella descrizione. Possibilit di resgitrazione al sito che ti garantisce la garanzia a vita."
+da Comprare!,Biagio,5,2017年9月13日,Comprata per montare su una radio per ascoltare Mp3 e devo dire che si sta comportato veramente bene. Prodotto Veloce e robusto
+NULLA DA ECCEPIRE,MIKE ZANOTTI,5,2017年11月6日,Fa esattamente quello che gli viene chiesto. Veloce nei trasferimenti e ben fatta. piccola e versatile. Carina anche la colorazione.
+Buona Qualit,Cliente Amazon,5,2017年7月7日,"Veloce trasmissione dati e led lampeggia quando scrive anche se molto piccolo, la plastica  di buona qualit e comodit il clip."
+chiavetta,Elena,5,2017年7月21日,"Acquistato questa chiavetta e davvero  ottima, non posso che dare 5 stelle. Esterno come da fotografia. Arrivata nel tempo indicato. Consigliata"
+Pessimo prodotto,Xenio,1,2017年3月16日,Non riesco pi a formattare il dispositivo. Mi dice che la chiavetta  protetta quando io non ho messo nessuna protezione. Ho tentato in tutti i modi di formattarla ma niente. Sono rimasto estremamente deluso.  un peccato perch  carino anche il colore.
+Ottimo prodotto,Besart,5,2019年7月18日,Ottimo prodotto
+ottimo usb,ciro,5,2016年5月9日,utilizzatto per lo piu' per vedere i film con la tv svolge egreggiamente il suo compito e copia i fim dal pc in modo veloce
+Ottimo,Darius,5,2019年3月7日,Perfetto
+Indignato,Antony,1,2016年3月27日,Non compratelo  fatta con materiali di scarsissima qualit.C' scritto 32GB ma ne sono solo 29GB.Non acquistatela per nessun motivo!!!
+Five Stars,paul watson,5,2015年12月13日,Works ok
+Ottimo Prodotto!,Giovanni,5,2016年1月9日,"Soddisfattissimo, chiavetta compatta e ben costruita, velocit come da attese, Silicon Power  una garanzia, inoltre, dulcis in fundo, garantita a vita!!!"
