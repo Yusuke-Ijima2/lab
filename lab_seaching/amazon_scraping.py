@@ -289,7 +289,7 @@ def scrape_amazon(url):
 
     scr.to_csv("amazon口コミ.csv")
 
-scrape_amazon('https://www.amazon.co.jp/%E9%87%8E%E8%8F%9C%E4%B8%80%E6%97%A5%E3%81%93%E3%82%8C%E4%B8%80%E6%9C%AC-%E4%B8%80%E6%9D%AF-%E9%87%8E%E8%8F%9C%E4%B8%80%E6%97%A5-%E3%81%93%E3%82%8C%E4%B8%80%E6%9C%AC-200ml%C3%9724%E6%9C%AC/dp/B000ZIMD2A/ref=sr_1_5?keywords=%E9%87%8E%E8%8F%9C%E3%82%B8%E3%83%A5%E3%83%BC%E3%82%B9&qid=1671766921&sr=8-5&th=1')
+scrape_amazon('https://www.amazon.co.jp/%E4%BC%8A%E8%97%A4%E5%9C%92-1%E6%97%A5%E5%88%86%E3%81%AE%E9%87%8E%E8%8F%9C-30%E6%97%A5%E5%88%86BOX-%E7%B4%99%E3%83%91%E3%83%83%E3%82%AF-200ml%C3%9730%E6%9C%AC/dp/B08HXN835J/ref=sr_1_6?crid=2FUWK2Y32O71H&keywords=%E9%87%8E%E8%8F%9C%E3%82%B8%E3%83%A5%E3%83%BC%E3%82%B9&qid=1671796124&sprefix=%E9%87%8E%E8%8F%9C%E3%82%B8%E3%83%A5%E3%83%BC%E3%82%B9%2Caps%2C648&sr=8-6')
 print("スクレイピング完了")
 
 text_array = []
@@ -304,7 +304,7 @@ for a in text_array:
     if a != '':
         main_array.append(a)
 
-with open('text_array_vegetable_juice.txt','w') as f:
+with open('text_array_vegetable_juice2.txt','w') as f:
     f.writelines('\n'.join(main_array))
 
 print(comments)
