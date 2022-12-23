@@ -278,8 +278,10 @@ def scrape_amazon(url):
             comment = scr.get_text(review.find('span',class_='a-size-base review-text review-text-content')).strip()
             scr.add_df([title,name,star,date,comment],['title','name','star','date','comment'],['\n'])
             
-            # if star == "4.0":
-            if star == 1.0 or star == 2.0 or star == 3.0:
+            # print(comment)
+            # print(star)
+            if star == "1.0" or "2.0" or "3.0":
+            # if star == 1.0 or star == 4.0:
                 comments.append(comment)
         
         if len(reviews) < 10:
