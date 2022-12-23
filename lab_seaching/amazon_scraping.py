@@ -260,7 +260,7 @@ def scrape_amazon(url):
     pos = url.find('/dp/') + 4
     id = url[pos:pos + 10]
 
-    for n in range(1,20):
+    for n in range(1,2):
         target = f'https://www.amazon.co.jp/product-reviews/{id}/ref=cm_cr_arp_d_viewopt_sr?ie=UTF8&filterByStar=all_stars&reviewerType=all_reviews&pageNumber={n}#reviews-filter-bar'
         print(f'get：{target}')
         soup = scr.request(target)
@@ -293,7 +293,12 @@ for text in comments:
     for i in a:
         text_array.append(i)
 
+main_array = []
+for a in text_array:
+    if a != '':
+        main_array.append(a)
+
 with open('text_array_vegetable_juice.txt','w') as f:
-    f.writelines('\n'.join(text_array))
+    f.writelines('\n'.join(main_array))
 
 print(text_array)
