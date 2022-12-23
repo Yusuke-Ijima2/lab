@@ -1,3 +1,6 @@
+
+# 実行したら必ずコミット
+
 with open('text_array_vegetable_juice.txt', 'r') as f:
     kw_list = f.read().split("\n")
     # print(kw_list)
@@ -10,7 +13,7 @@ with open('text_array_vegetable_juice.txt', 'r') as f:
             q_list.append(a.lstrip("q"))
         if a[0] == "w":
             w_list.append(a.lstrip("w"))
-        if a[0] != "q" and a[0] != "w": e_list.append(a)
+        if a[0] != "q" and "w": e_list.append(a)
 print(q_list)
 print(w_list)
 print(e_list)

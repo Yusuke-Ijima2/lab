@@ -5,6 +5,7 @@ import random
 import pandas as pd
 import time
 import datetime
+from tqdm import tqdm
 
 #------------------- 自作のScrapクラス ----------------
 class Scrape():
@@ -47,7 +48,7 @@ class Scrape():
         if console:
             tm = datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S')
             lap = time.time() - start
-            print(f'{tm} : {url}  経過時間 : {lap:.3f} 秒')
+            # print(f'{tm} : {url}  経過時間 : {lap:.3f} 秒')
 
         return BeautifulSoup(response.content, "html.parser")
       
@@ -233,7 +234,7 @@ class Scrape():
         message += '\n'
         with open(filename, 'a', encoding='shift-jis') as f:
            f.write(message)
-           print(message)
+        #    print(message)
 
     def read_log(self,filename):
         '''
@@ -260,12 +261,12 @@ def scrape_amazon(url):
     pos = url.find('/dp/') + 4
     id = url[pos:pos + 10]
 
-    for n in range(1,2):
+    for n in tqdm(range(1,1000)):
         target = f'https://www.amazon.co.jp/product-reviews/{id}/ref=cm_cr_arp_d_viewopt_sr?ie=UTF8&filterByStar=all_stars&reviewerType=all_reviews&pageNumber={n}#reviews-filter-bar'
-        print(f'get：{target}')
+        # print(f'get：{target}')
         soup = scr.request(target)
         reviews = soup.find_all('div',class_='a-section review aok-relative')
-        print(f'レビュー数:{len(reviews)}')
+        # print(f'レビュー数:{len(reviews)}')
         for review in reviews:
             title = scr.get_text(review.find('a',class_='a-size-base a-link-normal review-title a-color-base review-title-content a-text-bold'))
             title = scr.get_text(review.find('span',class_='cr-original-review-content')) if title.strip() == '' else title
@@ -276,19 +277,22 @@ def scrape_amazon(url):
             date = date[:date.find('に')]
             comment = scr.get_text(review.find('span',class_='a-size-base review-text review-text-content')).strip()
             scr.add_df([title,name,star,date,comment],['title','name','star','date','comment'],['\n'])
-            comments.append(comment)
+            
+            # if star == "4.0":
+            if star == 1.0 or star == 2.0 or star == 3.0:
+                comments.append(comment)
         
         if len(reviews) < 10:
             break
 
     scr.to_csv("amazon口コミ.csv")
 
-
 scrape_amazon('https://www.amazon.co.jp/%E9%87%8E%E8%8F%9C%E4%B8%80%E6%97%A5%E3%81%93%E3%82%8C%E4%B8%80%E6%9C%AC-%E4%B8%80%E6%9D%AF-%E9%87%8E%E8%8F%9C%E4%B8%80%E6%97%A5-%E3%81%93%E3%82%8C%E4%B8%80%E6%9C%AC-200ml%C3%9724%E6%9C%AC/dp/B000ZIMD2A/ref=sr_1_5?keywords=%E9%87%8E%E8%8F%9C%E3%82%B8%E3%83%A5%E3%83%BC%E3%82%B9&qid=1671766921&sr=8-5&th=1')
 print("スクレイピング完了")
 
 text_array = []
 for text in comments:
+    print(text)
     a = text.split("。")
     for i in a:
         text_array.append(i)
@@ -301,4 +305,5 @@ for a in text_array:
 with open('text_array_vegetable_juice.txt','w') as f:
     f.writelines('\n'.join(main_array))
 
-print(text_array)
+print()
+print(comments)
