@@ -5,7 +5,7 @@ endpoint = "https://tubokawa-lab-research2.cognitiveservices.azure.com/"
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
-# キーとエンドポイントを利用してクライアントの認証を行います 
+# キーとエンドポイントを利用してクライアントの認証を行う
 def authenticate_client():
     ta_credential = AzureKeyCredential(key)
     text_analytics_client = TextAnalyticsClient(
@@ -17,15 +17,19 @@ client = authenticate_client()
 
 # Example function for detecting sentiment in text
 def sentiment_analysis_example(client):
-    documents = [
-        {
-            "id": "1",
-            "language": "ja",
-            "text": "機能が充実していて使いやすい。デザインが好みではない。"
-        },
-    ]
+    research_array = []
+    array = ["イケメン。","ブス。"]
+    for i in range(len(array)):
+        documents = {
+                "id": i  + 1,
+                "language": "ja",
+                "text": array[i]
+            }
+        research_array.append(documents)
+    
+    print(research_array)
 
-    response = client.analyze_sentiment(documents=documents)
+    response = client.analyze_sentiment(documents=research_array)
 
     for document in response:
         print("Document Id: ", document.id)
