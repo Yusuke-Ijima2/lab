@@ -254,12 +254,13 @@ class Scrape():
         return lines
 
 #------------------- アマゾン口コミのスクレイピング用関数 ----------------
+comments = []
 def scrape_amazon(url):
     scr = Scrape(wait=2,max=5)
     pos = url.find('/dp/') + 4
     id = url[pos:pos + 10]
 
-    for n in range(1,100):
+    for n in range(1,20):
         target = f'https://www.amazon.co.jp/product-reviews/{id}/ref=cm_cr_arp_d_viewopt_sr?ie=UTF8&filterByStar=all_stars&reviewerType=all_reviews&pageNumber={n}#reviews-filter-bar'
         print(f'get：{target}')
         soup = scr.request(target)
@@ -273,8 +274,9 @@ def scrape_amazon(url):
             star = star[star.find('ち')+1:]
             date = scr.get_text(review.find('span',class_='a-size-base a-color-secondary review-date'))
             date = date[:date.find('に')]
-            comment = scr.get_text(review.find('span',class_='a-size-base review-text review-text-content'))
+            comment = scr.get_text(review.find('span',class_='a-size-base review-text review-text-content')).strip()
             scr.add_df([title,name,star,date,comment],['title','name','star','date','comment'],['\n'])
+            comments.append(comment)
         
         if len(reviews) < 10:
             break
@@ -282,5 +284,16 @@ def scrape_amazon(url):
     scr.to_csv("amazon口コミ.csv")
 
 
-scrape_amazon('https://www.amazon.co.jp/%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3%E3%83%91%E3%83%AF%E3%83%BC-USB%E3%83%A1%E3%83%A2%E3%83%AA-USB3-0-%E3%83%8D%E3%82%A4%E3%83%93%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC-SP064GBUF3B05V1D/dp/B00GOJ4R0U/ref=cm_cr_arp_d_product_top?ie=UTF8')
+scrape_amazon('https://www.amazon.co.jp/%E9%87%8E%E8%8F%9C%E4%B8%80%E6%97%A5%E3%81%93%E3%82%8C%E4%B8%80%E6%9C%AC-%E4%B8%80%E6%9D%AF-%E9%87%8E%E8%8F%9C%E4%B8%80%E6%97%A5-%E3%81%93%E3%82%8C%E4%B8%80%E6%9C%AC-200ml%C3%9724%E6%9C%AC/dp/B000ZIMD2A/ref=sr_1_5?keywords=%E9%87%8E%E8%8F%9C%E3%82%B8%E3%83%A5%E3%83%BC%E3%82%B9&qid=1671766921&sr=8-5&th=1')
 print("スクレイピング完了")
+
+text_array = []
+for text in comments:
+    a = text.split("。")
+    for i in a:
+        text_array.append(i)
+
+with open('text_array_vegetable_juice.txt','w') as f:
+    f.writelines('\n'.join(text_array))
+
+print(text_array)
