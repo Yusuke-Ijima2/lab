@@ -1,11 +1,11 @@
 key = "20b487e731954ee683ddba763fe40c53"
 endpoint = "https://tubokawa-lab-research2.cognitiveservices.azure.com/"
 
-# 各種ライブラリのインポート
+# # 各種ライブラリのインポート
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
-# キーとエンドポイントを利用してクライアントの認証を行う
+# # キーとエンドポイントを利用してクライアントの認証を行う
 def authenticate_client():
     ta_credential = AzureKeyCredential(key)
     text_analytics_client = TextAnalyticsClient(
@@ -15,22 +15,37 @@ def authenticate_client():
 
 client = authenticate_client()
 
-# Example function for detecting sentiment in text
+with open('q_sentiment_test.txt', 'r') as f:
+    q_result_list = f.read().split("\n")
+
+with open('startend.txt', 'r') as f:
+    startend = f.read().split("\n")
+
+# int型に変換
+startend = list(map(int, startend))
+# print(startend)
+
+# with open('w_sentiment_test.txt', 'r') as f:
+#     w_result_list = f.read().split("\n")
+    
+# with open('e_sentiment_test.txt', 'r') as f:
+#     e_result_list = f.read().split("\n")
+
 def sentiment_analysis_example(client):
     research_array = []
-    array = ["イケメン。","ブス。"]
-    for i in range(len(array)):
+    start = startend[0]
+    end = startend[1]
+    # print(q_result_list)
+    for i in range(44, 51):
+        print(i)
         documents = {
-                "id": i  + 1,
+                "id": 1 + i,
                 "language": "ja",
-                "text": array[i]
+                "text": q_result_list[i]
             }
         research_array.append(documents)
-    
-    print(research_array)
 
     response = client.analyze_sentiment(documents=research_array)
-
     for document in response:
         print("Document Id: ", document.id)
         print("Document Sentiment: {}".format(document.sentiment))
@@ -47,4 +62,14 @@ def sentiment_analysis_example(client):
                 sentence.confidence_scores.neutral,
                 sentence.confidence_scores.negative,
             ))
+
 sentiment_analysis_example(client)
+
+startend[0] += 10
+startend[1] += 10
+# print(startend)
+
+startend = list(map(str, startend))
+# print(startend)
+with open('startend.txt','w') as f:
+    f.writelines('\n'.join(startend))

@@ -261,7 +261,7 @@ def scrape_amazon(url):
     pos = url.find('/dp/') + 4
     id = url[pos:pos + 10]
 
-    for n in tqdm(range(1000)):
+    for n in tqdm(range(70)):
         target = f'https://www.amazon.co.jp/product-reviews/{id}/ref=cm_cr_arp_d_viewopt_sr?ie=UTF8&filterByStar=all_stars&reviewerType=all_reviews&pageNumber={n}#reviews-filter-bar'
         # print(f'get：{target}')
         soup = scr.request(target)
@@ -277,11 +277,9 @@ def scrape_amazon(url):
             date = date[:date.find('に')]
             comment = scr.get_text(review.find('span',class_='a-size-base review-text review-text-content')).strip()
             scr.add_df([title,name,star,date,comment],['title','name','star','date','comment'],['\n'])
-            
-            # print(comment)
-            # print(star)
-            if star == "1.0" or star == "2.0" or star == "3.0":
-            # if star == 1.0 or star == 4.0:
+
+            # if star == "1.0" or star == "2.0" or star == "3.0":
+            if star == "5.0":
                 comments.append(comment)
         
         if len(reviews) < 10:
@@ -304,7 +302,7 @@ for a in text_array:
     if a != '':
         main_array.append(a)
 
-with open('text_array_vegetable_juice2.txt','w') as f:
+with open('text_array_vegetable_juice3.txt','w') as f:
     f.writelines('\n'.join(main_array))
 
 print(comments)
