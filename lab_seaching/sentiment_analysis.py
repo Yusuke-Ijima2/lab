@@ -31,12 +31,23 @@ startend = list(map(int, startend))
 # with open('e_sentiment_test.txt', 'r') as f:
 #     e_result_list = f.read().split("\n")
 
+positive_average = 0.0
+positive_sum = 0.0
+neutral_average = 0.0
+neutral_sum = 0.0
+negative_average = 0.0
+negative_sum = 0.0
+
 def sentiment_analysis_example(client):
+    global positive_sum
+    global neutral_sum
+    global negative_sum
+    
     research_array = []
     start = startend[0]
     end = startend[1]
     # print(q_result_list)
-    for i in range(44, 51):
+    for i in range(start, end):
         print(i)
         documents = {
                 "id": 1 + i,
@@ -54,14 +65,37 @@ def sentiment_analysis_example(client):
             document.confidence_scores.neutral,
             document.confidence_scores.negative,
         ))
-        for idx, sentence in enumerate(document.sentences):
-            print("Sentence: {}".format(sentence.text))
-            print("Sentence {} sentiment: {}".format(idx+1, sentence.sentiment))
-            print("Sentence score:\nPositive={0:.2f}\nNeutral={1:.2f}\nNegative={2:.2f}\n".format(
-                sentence.confidence_scores.positive,
-                sentence.confidence_scores.neutral,
-                sentence.confidence_scores.negative,
-            ))
+        # for idx, sentence in enumerate(document.sentences):
+        #     print("Sentence: {}".format(sentence.text))
+        #     print("Sentence {} sentiment: {}".format(idx+1, sentence.sentiment))
+        #     print("Sentence score:\nPositive={0:.2f}\nNeutral={1:.2f}\nNegative={2:.2f}\n".format(
+        #         sentence.confidence_scores.positive,
+        #         sentence.confidence_scores.neutral,
+        #         sentence.confidence_scores.negative,
+        #     ))
+        positive = "{:.2f}".format(document.confidence_scores.positive)
+        neutral = "{:.2f}".format(document.confidence_scores.neutral)
+        negative = "{:.2f}".format(document.confidence_scores.negative)
+        
+        # 合計を求める
+        positive_sum += float(positive)
+        neutral_sum += float(neutral)
+        negative_sum += float(negative)
+    
+    # 平均を求める
+    positive_average = positive_sum / end
+    neutral_average = neutral_sum / end
+    negative_average = negative_sum / end
+    
+    print("合計" + str(end) + "レビュー")
+    print("")
+    print("positive_sum = " + str(positive_sum))
+    print("neutral_sum = " + str(neutral_sum))
+    print("negative_sum = " + str(negative_sum))
+    print("")
+    print("positive_average = " + str(positive_average))
+    print("neutral_average = " + str(neutral_average))
+    print("negative_average = " + str(negative_average))
 
 sentiment_analysis_example(client)
 
