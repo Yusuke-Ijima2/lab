@@ -65,17 +65,21 @@ def sentiment_analysis_example(client):
             document.confidence_scores.neutral,
             document.confidence_scores.negative,
         ))
-        # for idx, sentence in enumerate(document.sentences):
-        #     print("Sentence: {}".format(sentence.text))
-        #     print("Sentence {} sentiment: {}".format(idx+1, sentence.sentiment))
-        #     print("Sentence score:\nPositive={0:.2f}\nNeutral={1:.2f}\nNegative={2:.2f}\n".format(
-        #         sentence.confidence_scores.positive,
-        #         sentence.confidence_scores.neutral,
-        #         sentence.confidence_scores.negative,
-        #     ))
+        for idx, sentence in enumerate(document.sentences):
+            print("Sentence: {}".format(sentence.text))
+            print("Sentence {} sentiment: {}".format(idx+1, sentence.sentiment))
+            print("Sentence score:\nPositive={0:.2f}\nNeutral={1:.2f}\nNegative={2:.2f}\n".format(
+                sentence.confidence_scores.positive,
+                sentence.confidence_scores.neutral,
+                sentence.confidence_scores.negative,
+            ))
         positive = "{:.2f}".format(document.confidence_scores.positive)
         neutral = "{:.2f}".format(document.confidence_scores.neutral)
         negative = "{:.2f}".format(document.confidence_scores.negative)
+        print("positive = " + positive)
+        print("neutral = " + neutral)
+        print("negative = " + negative)
+        print("")
         
         # 合計を求める
         positive_sum += float(positive)
