@@ -15,7 +15,7 @@ def authenticate_client():
 
 client = authenticate_client()
 
-with open('q_sentiment_test.txt', 'r') as f:
+with open('e_sentiment_file.txt', 'r') as f:
     q_result_list = f.read().split("\n")
 
 with open('startend.txt', 'r') as f:
@@ -23,13 +23,11 @@ with open('startend.txt', 'r') as f:
 
 # int型に変換
 startend = list(map(int, startend))
-# print(startend)
 
-# with open('w_sentiment_test.txt', 'r') as f:
-#     w_result_list = f.read().split("\n")
-    
-# with open('e_sentiment_test.txt', 'r') as f:
-#     e_result_list = f.read().split("\n")
+with open('pnn_sum.txt', 'r') as f:
+    pnn_sum = f.read().split("\n")
+    # float型に変換
+    pnn_sum = list(map(float, pnn_sum))
 
 positive_average = 0.0
 positive_sum = 0.0
@@ -82,20 +80,20 @@ def sentiment_analysis_example(client):
         print("")
         
         # 合計を求める
-        positive_sum += float(positive)
-        neutral_sum += float(neutral)
-        negative_sum += float(negative)
+        pnn_sum[0] += float(positive)
+        pnn_sum[1] += float(neutral)
+        pnn_sum[2] += float(negative)
     
     # 平均を求める
-    positive_average = positive_sum / end
-    neutral_average = neutral_sum / end
-    negative_average = negative_sum / end
+    positive_average = pnn_sum[0] / end
+    neutral_average = pnn_sum[1] / end
+    negative_average = pnn_sum[2] / end
     
     print("合計" + str(end) + "レビュー")
     print("")
-    print("positive_sum = " + str(positive_sum))
-    print("neutral_sum = " + str(neutral_sum))
-    print("negative_sum = " + str(negative_sum))
+    print("positive_sum = " + str(pnn_sum[0]))
+    print("neutral_sum = " + str(pnn_sum[1]))
+    print("negative_sum = " + str(pnn_sum[2]))
     print("")
     print("positive_average = " + str(positive_average))
     print("neutral_average = " + str(neutral_average))
@@ -105,9 +103,13 @@ sentiment_analysis_example(client)
 
 startend[0] += 10
 startend[1] += 10
-# print(startend)
 
 startend = list(map(str, startend))
 # print(startend)
 with open('startend.txt','w') as f:
     f.writelines('\n'.join(startend))
+
+pnn_sum = list(map(str, pnn_sum))
+# print(pnn_sum)
+with open('pnn_sum.txt','w') as f:
+    f.writelines('\n'.join(pnn_sum))
